@@ -48,13 +48,13 @@ git clone https://github.com/usydnlp/REXUP.git
 
 ## Pre-processing
 
-Before training the model, you have to download the GQA dataset and extracted features for the images:
+Before training the model, you have to download the GQA dataset and extracted features for the images.
 
 ### Dataset
 
 To download and unpack the data, run the following commands:
 
-<!-- ```bash
+```
 mkdir data
 cd data
 wget https://nlp.stanford.edu/data/gqa/data1.2.zip
@@ -68,7 +68,7 @@ cd ../
 1. **The data zip file here contains only the minimum information and splits needed to run the model in this repository. To access the full version of the dataset with more information about the questions as well as the test/challenge splits please download the questions from the [`official download page`](https://www.visualreasoning.net/download.html).**
 
 
-```bash
+```
 mkdir data
 cd data
 wget http://nlp.stanford.edu/data/glove.6B.zip
@@ -85,20 +85,20 @@ Alternatively, if you have the latest version of the GQA dataset already downloa
 
 ### Feature download and preparation
 
-<!-- 
-```bash
+
+```
 cd data
 wget http://nlp.stanford.edu/data/gqa/objectFeatures.zip
 unzip objectFeatures.zip
 cd ../
 python merge.py --name objects
-``` -->
+``` 
 
 ## Training
 
 To train the model, run the following command:
 
-```bash
+```
 python main.py --expName "gqaExperiment" --train --testedNum 10000 --epochs 25 --netLength 4 @configs/gqa/gqa_ensemble.txt
 ```
 
@@ -120,7 +120,7 @@ See [`config.py`](config.py) for further available options (Note that some of th
 
 To evaluate the trained model, and get predictions and attention maps, run the following:
 
-```bash
+```
 python main.py --expName "gqaExperiment" --finalTest --testedNum 10000 --netLength 4 -r --getPreds --getAtt @configs/gqa/gqa_ensemble.txt
 ```
 
