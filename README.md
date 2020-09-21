@@ -20,8 +20,7 @@ The REXUP network contains two parallel branches, object-oriented branch and sce
 
 ## Bibtex
 
-For the REXUP Paper:
-
+Please cite the following if you use any of our code
 ```
 @article{siwen2020rexup,
   title={REXUP: I REason, I EXtract, I UPdate with Structured Compositional Reasoning for Visual Question Answering},
