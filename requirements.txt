@@ -1,0 +1,14 @@
+torch
+numpy
+Pillow
+scipy
+torchvision
+h5py
+tensorflow-gpu
+tqdm
+termcolor
+matplotlib
+seaborn
+pandas
+nltk
+schema
