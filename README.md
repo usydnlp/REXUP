@@ -14,8 +14,8 @@ The REXUP network contains two parallel branches, object-oriented branch and sce
 **_replace the image here_**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/usydnlp/REXUP/master/model_img/REXUP.png" style="float:left" width="280px" height='380px'>
-  <img src="https://raw.githubusercontent.com/usydnlp/REXUP/master/model_img/REXUP_cell.png" style="float:right" width="600px", height='280px'>
+  <img src="https://raw.githubusercontent.com/usydnlp/REXUP/master/model_img/REXUP.png" style="float:left" width="260px" height='360px'>
+  <img src="https://raw.githubusercontent.com/usydnlp/REXUP/master/model_img/REXUP_cell.png" style="float:right" width="500px", height='280px'>
 </div>
 
 ## Bibtex
