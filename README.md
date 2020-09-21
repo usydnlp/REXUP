@@ -38,7 +38,7 @@ Please cite the following if you use any of our code
 Let's begin from cloning this reponsitory branch:
 
 ```
-git clone XX
+git clone https://github.com/usydnlp/REXUP.git
 ```
 
 - run `pip install docker` to install docker in your server.
