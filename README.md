@@ -6,15 +6,16 @@
 
 **_For any issue related to code, pls first search for solution in Issues section, if there is no result, pls post a comment in "Issues" section, we will help soon._**
 
-This is an implementation of the [REXUP model](https://arxiv.org/abs/2007.13262) to take advantage of scene graph from the <b>[the GQA dataset](https://www.visualreasoning.net)</b>. GQA is a new dataset for real-world visual reasoning, offrering 20M diverse multi-step questions, all come along with short programs that represent their semantics, and visual pointers from words to the corresponding image regions. Here we extend the MAC network to work over VQA and GQA, and provide multiple baselines as well.
+This is an implementation of the [REXUP network](https://arxiv.org/abs/2007.13262) to take advantage of scene graph from the <b>[the GQA dataset](https://www.visualreasoning.net)</b>. GQA is a new dataset for real-world visual reasoning, offrering 20M diverse multi-step questions, all come along with short programs that represent their semantics, and visual pointers from words to the corresponding image regions. Here we extend the MAC network to work over VQA and GQA, and provide multiple baselines as well.
 
-**_decription for rexup_**
+**_decription for REXUP NETWORK_**
+The REXUP network contains two parallel branches, object-oriented branch and scene-graph oriented branch. Each branch contains a sequence of REXUP cells where each cell operates for one reasoning step for the answer prediction. 
 
 **_replace the image here_**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/usydnlp/REXUP/master/model_img/REXUP.png" style="float:left" width="420px">
-  <img src="https://raw.githubusercontent.com/usydnlp/REXUP/master/model_img/REXUP_cell.png" style="float:right" width="390px">
+  <img src="https://raw.githubusercontent.com/usydnlp/REXUP/master/model_img/REXUP.png" style="float:left" width="280px" height='380px'>
+  <img src="https://raw.githubusercontent.com/usydnlp/REXUP/master/model_img/REXUP_cell.png" style="float:right" width="600px", height='280px'>
 </div>
 
 ## Bibtex
