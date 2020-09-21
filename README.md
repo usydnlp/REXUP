@@ -11,7 +11,6 @@ This is an implementation of the [REXUP network](https://arxiv.org/abs/2007.1326
 **_decription for REXUP NETWORK_**
 The REXUP network contains two parallel branches, object-oriented branch and scene-graph oriented branch. Each branch contains a sequence of REXUP cells where each cell operates for one reasoning step for the answer prediction. 
 
-**_replace the image here_**
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/usydnlp/REXUP/master/model_img/REXUP.png" style="float:left" width="260px" height='360px'>
