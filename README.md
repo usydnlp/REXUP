@@ -1,7 +1,7 @@
 # REXUP: I REason, I EXtract, I UPdate with Structured Compositional Reasoning for Visual Question Answering
 
 <p align="center">
-  <b>Siwen Luo, Soyeon Caren Han, Kaiyuan Sun, Josiah Poon</b></span>
+  <b>Luo, S., Han, S. C., Sun, K., & Poon, J. (2020). [REXUP: I REason, I EXtract, I UPdate with Structured Compositional Reasoning for Visual Question Answering](https://arxiv.org/abs/2007.13262). ICONIP 2020</b></span>
 </p>
 
 **_For any issue related to code, pls first search for solution in Issues section, if there is no result, pls post a comment in "Issues" section, we will help soon._**
